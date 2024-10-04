@@ -12,10 +12,10 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Set the environment variable for the port
-ENV PORT=8080
+ENV PORT=5555
 
 # Expose the port
-EXPOSE 8080
+EXPOSE 5555
 
 # Command to run your application
 CMD ["python", "appData.py"]
