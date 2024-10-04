@@ -46,5 +46,5 @@ def fetch_data(request):
         return {"message": "URLs and password are required."}, 400
 
 if __name__ == '__main__':
-    port = int(os.environ.get('PORT', 8080))  # Ensure it listens on the correct port
+    port = int(os.environ.get('PORT', 5555))  # Ensure it listens on the correct port
     app.run(host='0.0.0.0', port=port)
